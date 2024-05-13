@@ -1,0 +1,17 @@
+ /* VideoChat.css */
+ .video-chat-container {
+     display: flex;
+     justify-content: space-between;
+     margin: 20px;
+ }
+
+ .video-chat-container video {
+     width: 45%;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+
+ .local-video {
+     transform: scaleX(-1);
+     /* Flip the local video horizontally */
+ }

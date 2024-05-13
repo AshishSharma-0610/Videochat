@@ -1,0 +1,43 @@
+  /* TextChat.css */
+  .text-chat-container {
+      margin: 20px;
+  }
+
+  .message-container {
+      max-height: 200px;
+      overflow-y: auto;
+  }
+
+  .message {
+      background-color: #f0f0f0;
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 8px;
+  }
+
+  .input-container {
+      display: flex;
+      align-items: center;
+      margin-top: 16px;
+  }
+
+  .chat-input {
+      flex: 1;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+  }
+
+  .send-button {
+      margin-left: 8px;
+      padding: 8px 16px;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+  }
+
+  .send-button:hover {
+      background-color: #0056b3;
+  }
